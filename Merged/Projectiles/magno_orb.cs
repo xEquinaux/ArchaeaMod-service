@@ -148,7 +148,7 @@ namespace ArchaeaMod.Merged.Projectiles
                 Main.dust[orbDust].noGravity = true;
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             int num = 48 * 3;
             int num2 = 24 * 3;

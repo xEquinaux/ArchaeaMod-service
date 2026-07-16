@@ -462,7 +462,7 @@ namespace ArchaeaMod.NPCs.Bosses
                 Projectile.frame = 0;
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             ArchaeaNPC.DustSpread(Projectile.position, Projectile.width, Projectile.height, 6, 6, 2f);
         }
@@ -584,7 +584,7 @@ namespace ArchaeaMod.NPCs.Bosses
             }
             return true;
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             ArchaeaNPC.DustSpread(Projectile.position, Projectile.width, Projectile.height, DustID.Shadowflame, 10, 2f);
         }

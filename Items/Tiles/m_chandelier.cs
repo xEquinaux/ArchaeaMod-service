@@ -36,8 +36,8 @@ namespace ArchaeaMod.Items.Tiles
             CreateRecipe()
                 .AddIngredient(ModContent.ItemType<Merged.Items.Materials.magno_bar>(), 3)
                 .AddIngredient(ModContent.ItemType<Merged.Items.Tiles.magno_brick>(), 4)
-                .AddIngredient(TileID.Torches, 4)
-                .AddIngredient(TileID.Chain, 1)
+                .AddIngredient((int)TileID.Torches, 4)
+                .AddIngredient((int)TileID.Chain, 1)
                 .AddTile(TileID.Anvils)
 //            recipe.SetResult(Item.type);
                 .Register();

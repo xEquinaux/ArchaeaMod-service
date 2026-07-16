@@ -119,7 +119,7 @@ namespace ArchaeaMod.Jobs.Items
                 .AddIngredient(ItemID.Book)
                 .AddIngredient(ItemID.Sunflower, 5)
                 .AddIngredient(ItemID.Deathweed, 5)
-                .AddTile(ItemID.CrystalBall)
+                .AddTile((int)ItemID.CrystalBall)
                 .Register();
             
         }

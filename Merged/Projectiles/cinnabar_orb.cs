@@ -134,7 +134,7 @@ namespace ArchaeaMod.Merged.Projectiles
                 Main.dust[orbDust].noGravity = true;
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             DustType = ModContent.DustType<Merged.Dusts.cinnabar_dust>();
             for (int k = 0; k < 6; k++)

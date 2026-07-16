@@ -107,7 +107,7 @@ namespace ArchaeaMod.Composite
         public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
         {
             sb.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
-            DrawCompositeLayer(true);
+            //DrawCompositeLayer(true);
             ModContent.GetInstance<Structure.Keypad>().DrawKeyPad(sb);
             sb.End();
         }
@@ -228,7 +228,7 @@ namespace ArchaeaMod.Composite
         public static Bitmap TextureLighting(Image texture, Rectangle hitbox, Lightmap map, Color c, float gamma, float alpha)
         {
             Bitmap bitmap = new Bitmap(16, 16);
-            using (Graphics gfx = Graphics.FromImage(bitmap))
+            /*using (Graphics gfx = Graphics.FromImage(bitmap))
             {
                 if (alpha > 0f)
                 {
@@ -246,7 +246,7 @@ namespace ArchaeaMod.Composite
             }
             map.alpha = alpha;
             map.color = map.DefaultColor;
-            c = map.DefaultColor;
+            c = map.DefaultColor;*/
             return bitmap;
         }
         public static ImageAttributes SetColor(Color color)

@@ -71,7 +71,7 @@ namespace ArchaeaMod.Projectiles
                     break;
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             if ((int)Projectile.ai[0] != Ground)
                 NPCs.ArchaeaNPC.DustSpread(Projectile.Center, 1, 1, 6, 3, 2f);

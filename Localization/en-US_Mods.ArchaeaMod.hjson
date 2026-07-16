@@ -315,11 +315,32 @@ Configs: {
 
 	ClassOverride: {
 		Tooltip: ""
-		All.Label: All
-		Magic.Label: Magic
-		Melee.Label: Melee
-		Ranged.Label: Ranged
-		Summoner.Label: Summoner
+
+		All: {
+			Label: All
+			Tooltip: ""
+		}
+
+		Magic: {
+			Label: Magic
+			Tooltip: ""
+		}
+
+		Melee: {
+			Label: Melee
+			Tooltip: ""
+		}
+
+		Ranged: {
+			Label: Ranged
+			Tooltip: ""
+		}
+
+		Summoner: {
+			Label: Summoner
+			Tooltip: ""
+		}
+
 		None.Label: None
 	}
 }

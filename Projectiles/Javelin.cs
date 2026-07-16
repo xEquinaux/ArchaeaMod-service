@@ -88,7 +88,7 @@ namespace ArchaeaMod.Projectiles
             if (ArchaeaItem.Elapsed(5))
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, 6);
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             for (int i = 0; i < 6; i++)
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, 6, 0f, 0f, 0, default(Color), 2f);

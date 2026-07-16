@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchaeaMod-service", "ArchaeaMod-service.csproj", "{496912B4-EB87-1182-9CDB-9FF09692F9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tUserInterface", "..\tUserInterface\tUserInterface.csproj", "{E219F7E7-19DF-296C-4DC1-8E94B8C2AA10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{496912B4-EB87-1182-9CDB-9FF09692F9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496912B4-EB87-1182-9CDB-9FF09692F9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496912B4-EB87-1182-9CDB-9FF09692F9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496912B4-EB87-1182-9CDB-9FF09692F9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E219F7E7-19DF-296C-4DC1-8E94B8C2AA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E219F7E7-19DF-296C-4DC1-8E94B8C2AA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E219F7E7-19DF-296C-4DC1-8E94B8C2AA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E219F7E7-19DF-296C-4DC1-8E94B8C2AA10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {415DB6B9-5F2E-47DA-9191-5805C0ED6470}
+	EndGlobalSection
+EndGlobal

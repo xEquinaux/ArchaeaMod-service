@@ -2402,6 +2402,7 @@ namespace ArchaeaMod
             #region innactive draw testing
             
             return;
+            /*
             //var tex = ModContent.GetInstance<Items.Alternate.MagnoCannon>().tex;
             if (Items.Alternate.MagnoCannon.tex != null && Player.controlUseItem)
             {
@@ -2424,6 +2425,7 @@ namespace ArchaeaMod
             }
             sb.Draw(tex, new Vector2(x - width, y - height) - Main.screenPosition, Color.White);
             //  END
+            */
             #endregion
         }
         private bool init;

@@ -69,7 +69,7 @@ namespace ArchaeaMod.Merged.Projectiles
             int Dust1 = Dust.NewDust(Projectile.Center + new Vector2(-4, -4), 1, 1, DustType, 0f, 0f, 0, Color.White, 1.4f); // old dust: 159, Color.OrangeRed
             Main.dust[Dust1].noGravity = true;
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             for (int k = 0; k < 4; k++)
             {

@@ -116,7 +116,7 @@ namespace ArchaeaMod.TakerylProject.Projectiles
             Projectile.timeLeft = 3;
         }
         
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             //  need global explosion effect for one style
             for (int i = 0; i < 5; i++)

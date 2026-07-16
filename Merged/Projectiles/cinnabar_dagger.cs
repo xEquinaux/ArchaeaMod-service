@@ -77,7 +77,7 @@ namespace ArchaeaMod.Merged.Projectiles
                 }
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             if (Main.rand.NextFloat() >= 0.75f)
             {

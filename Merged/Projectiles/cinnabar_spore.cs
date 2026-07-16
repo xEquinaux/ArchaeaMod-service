@@ -125,7 +125,7 @@ namespace ArchaeaMod.Merged.Projectiles
             if (!Main.tileSolid[tile.TileType] || !tile.HasTile)
                 Projectile.timeLeft = 5;
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             int DustType = ModContent.DustType<Merged.Dusts.cinnabar_dust>();
             int dustType2 = ModContent.DustType<Merged.Dusts.c_silver_dust>();

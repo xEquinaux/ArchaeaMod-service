@@ -96,13 +96,13 @@ namespace ArchaeaMod.Jobs.Items
 				.AddIngredient(ItemID.Book)
 				.AddIngredient(ItemID.Deathweed, 25)
 				.AddIngredient(ItemID.RottenChunk)
-				.AddTile(ItemID.CrystalBall)
+				.AddTile((int)ItemID.CrystalBall)
 				.Register();
             CreateRecipe()
                 .AddIngredient(ItemID.Book)
                 .AddIngredient(ItemID.Deathweed, 25)
                 .AddIngredient(ItemID.Vertebrae)
-                .AddTile(ItemID.CrystalBall)
+                .AddTile((int)ItemID.CrystalBall)
                 .Register();
         }
     }

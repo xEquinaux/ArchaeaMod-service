@@ -128,7 +128,7 @@ namespace ArchaeaMod.Projectiles
                     break;
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             NPCs.ArchaeaNPC.DustSpread(Projectile.Center, Projectile.width, Projectile.height, 6, 4, 2f);
         }

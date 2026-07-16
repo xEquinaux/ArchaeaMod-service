@@ -1,10 +1,10 @@
-author = Archaea devs
-version = 1.4.51.308
+author = 700hours
+version = 1.4.56.317
 displayName = Archaea Mod
 homepage = http://www.circleprefect.com/modpage
-dllReferences = tUserInterface
+dllReferences = tUserInterface, System.Drawing.Common, System.Private.Windows.Core, System.Private.Windows.GdiPlus, System.Reflection.Metadata, System.Collections.Immutable, System.Formats.Nrbf, Microsoft.Win32.SystemEvents
 hideCode = true
-hideResources = true
-includeSource = false
+hideResources = false
+includeSource = true
 buildIgnore = *.csproj, *.md, *.config, *.sln, *.user, obj\*, bin\*, .vs\*, .git\*, misc\*, .gitattributes, .gitignore, *.ini, ArchaeaMod\*, archive\*, Transfer\*, ArchaeaMod-base\*, ArchaeaMod-vscode\*, todo.txt, tmod\*, output.txt, start.txt
 includePDB = true

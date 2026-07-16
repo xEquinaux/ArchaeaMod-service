@@ -57,7 +57,7 @@ namespace ArchaeaMod.Jobs.Items
                 .AddIngredient(ItemID.Book)
                 .AddIngredient(ItemID.Fireblossom, 7)
                 .AddIngredient(ItemID.Meteorite)
-                .AddTile(ItemID.CrystalBall)
+                .AddTile((int)ItemID.CrystalBall)
                 .Register();
         }
     }

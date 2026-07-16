@@ -102,7 +102,7 @@ namespace ArchaeaMod.Projectiles
                     Projectile.timeLeft = 10;
             }
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             Dusts(8, true);
         }
